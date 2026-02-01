@@ -204,12 +204,16 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 
 // Emailjjs Start  
 
+(function(){
+    emailjs.init("Mxf5pLeck9HKEDwpr"); // yahan public key
+  })();
+
 document.getElementById("contact-form").addEventListener("submit", function(e) {
   e.preventDefault();
 
   emailjs.sendForm(
-    "service_6zx6lojs",
-    "template_x17fs6n",
+    "service_6zx6loj",   // service_xxxxxx
+    "template_t5db4uh",  // template_xxxxxx
     this
   ).then(
     function() {
@@ -217,11 +221,13 @@ document.getElementById("contact-form").addEventListener("submit", function(e) {
       document.getElementById("contact-form").reset();
     },
     function(error) {
-      alert("Failed to send message ❌");
+      alert("Message send nahi hua ❌");
       console.log(error);
     }
   );
 });
+
+
 
 // Emailjs End
 
