@@ -202,6 +202,28 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 })();
 // End of Tawk.to Live Chat
 
+// Emailjjs Start  
+
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    "service_6zx6lojs",
+    "template_x17fs6n",
+    this
+  ).then(
+    function() {
+      alert("Message sent successfully ✅");
+      document.getElementById("contact-form").reset();
+    },
+    function(error) {
+      alert("Failed to send message ❌");
+      console.log(error);
+    }
+  );
+});
+
+// Emailjs End
 
 /* ===== SCROLL REVEAL ANIMATION ===== */
 const srtop = ScrollReveal({
