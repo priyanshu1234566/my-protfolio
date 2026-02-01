@@ -951,6 +951,10 @@ header .navbar ul li a:hover {
   filter: grayscale(1) invert(1);
 }
 
+ .mapbox {
+    height: 380px;
+    border-radius: 18px;
+  }
 
 
 
