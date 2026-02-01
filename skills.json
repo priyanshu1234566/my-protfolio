@@ -80,14 +80,20 @@
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    },    
-
-    
-    {
-        "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
-    }
+  "name": "Vercel",
+  "icon": "https://img.icons8.com/ios-filled/48/000000/vercel.png"
+},
+{
+  "name": "MS PowerPoint",
+  "icon": "https://img.icons8.com/ios-filled/48/d24726/microsoft-powerpoint-2019.png"
+},
+{
+  "name": "MS Excel",
+  "icon": "https://img.icons8.com/ios-filled/48/107c41/microsoft-excel-2019.png"
+},
+{
+  "name": "MS Word",
+  "icon": "https://img.icons8.com/ios-filled/48/185abd/microsoft-word-2019.png"
+}
     
 ]
