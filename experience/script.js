@@ -29,7 +29,7 @@ const srtop = ScrollReveal({
 srtop.reveal('.experience .timeline',{delay: 400});
 srtop.reveal('.experience .timeline .container',{interval: 400}); 
 
-
+/*
 // Start of Tawk.to Live Chat
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -41,6 +41,7 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 // End of Tawk.to Live Chat
+*/
 
 
 // disable developer mode
