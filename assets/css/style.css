@@ -17,13 +17,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #f7f7f7;
+  background: #f7f7f7; /* #f7f7f7 */
   font-family: "Poppins", sans-serif;
 }
 
 *::selection {
-  background: #2b3dda;
-  color: #fff;
+  background: #2b3dda;/*#2b3dda*/
+  color: #fff;/* #fff */
 }
 
 html {
@@ -34,10 +34,10 @@ html::-webkit-scrollbar {
   width: 0.8rem;
 }
 html::-webkit-scrollbar-track {
-  background: rgb(235, 202, 245);
+  background: rgb(235, 202, 245);/* rgb(235, 202, 245)*/
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #420177; /* #420177 */
 }
 
 /* pre loader start */
@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   z-index: 10000;
-  background: #e6eff1;
+  background: #e6eff1;/* #e6eff1*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +70,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #fff;
+  background-color: #fff; /* #fff */
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
@@ -1204,7 +1204,7 @@ form .button-area {
   color: #ffae00;
 }
 .footer .fa {
-  color: #e90606;
+  color: #e90606;/* #e90606*/
   margin: 0 0.3rem;
   font-size: 1.5rem;
   animation: pound 0.35s infinite alternate;
@@ -1253,8 +1253,8 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #ffae00;/* #ffae00*/
+  color: rgb(13, 0, 44);/* rgb(13, 0, 44) */
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
